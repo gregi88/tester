@@ -1,0 +1,23 @@
+<app-header></app-header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+                <h1>file upload</h1>
+                <br>
+                <hr>
+                <input type="file" 
+                (change)="onFileSelected($event)"
+                >
+                <br>
+                <button class="btn btn-primary" type="button" (click)="onUplod()">UPLOAD</button>
+                
+                
+                
+                <router-outlet></router-outlet>
+                
+        </div>
+    </div>
+</div>
+
+
